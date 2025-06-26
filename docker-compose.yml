@@ -1,7 +1,7 @@
-version: '3.8'
+version: "3.8"
 
 services:
-  os-process-api:
+  web-os-process:
     build: .
     ports:
       - "3000:3000"
