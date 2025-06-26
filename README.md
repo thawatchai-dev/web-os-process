@@ -13,3 +13,14 @@ bun run dev
 ```
 
 Open http://localhost:3000/ with your browser to see the result.
+
+## Docker Deployment
+To build the Docker image:
+```bash
+docker build -t os-process-api .
+```
+
+To run the Docker container:
+```bash
+docker run -p 3000:3000 os-process-api
+```
