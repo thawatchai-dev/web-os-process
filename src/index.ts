@@ -4,7 +4,7 @@ import { staticPlugin } from '@elysiajs/static';
 
 const app = new Elysia()
   .use(staticPlugin({
-    assets: "/public",
+    assets: "./public",
     prefix: "/"
   }))
   .ws('/ws', {
