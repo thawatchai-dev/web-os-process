@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>System Information</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>System Information</h1>
+        <div id="data" class="info-grid">
+
+            <div class="info-card">
+                <h2>CPU Load</h2>
+                <div class="chart-container"><canvas id="cpu-load-chart"></canvas></div>
+            </div>
+            <div class="info-card">
+                <h2>Memory Usage</h2>
+                <div class="chart-container"><canvas id="mem-chart"></canvas></div>
+            </div>
+            <div class="info-card">
+                <h2>Network Usage</h2>
+                <div class="chart-container"><canvas id="network-chart"></canvas></div>
+            </div>
+            <div class="info-card">
+                <h2>File System</h2>
+                <div id="fs-info-container">Loading...</div>
+            </div>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
